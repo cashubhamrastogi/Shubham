@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shubham Rastogi | Learning & Automation Resume</title>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --border: #1f2937;
+      --radius: 14px;
+      --max: 900px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      --sans: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      background: linear-gradient(180deg, #020617, var(--bg));
+      color: var(--text);
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: auto;
+      padding: 40px 20px 80px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0 0 8px;
+      letter-spacing: -0.5px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 0 0 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      margin: 0 0 6px;
+      font-size: 16px;
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    section {
+      margin-top: 32px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    li {
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .tag {
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #020617;
+      border: 1px solid var(--border);
+      font-family: var(--mono);
+      color: var(--muted);
+    }
+
+    .header {
+      margin-bottom: 30px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: var(--muted);
+    }
+
+    .code {
+      font-family: var(--mono);
+      font-size: 13px;
+      background: #020617;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+      color: #c7d2fe;
+      line-height: 1.5;
+      overflow-x: auto;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Shubham Rastogi</h1>
+      <div class="subtitle">
+        Automation • Data • Finance Analytics • Continuous Learner
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <section>
+      <h2>Profile Summary</h2>
+      <p>
+        I am a hands-on learner focused on building practical automation and analytics systems.
+        My work revolves around connecting user inputs, APIs, databases, and reporting tools
+        to reduce manual effort and create reliable workflows.
+      </p>
+      <p>
+        I enjoy learning by building real projects — especially in finance reporting,
+        invoicing systems, calendar scheduling, and low-code automation.
+      </p>
+    </section>
+
+    <!-- Learning Areas -->
+    <section>
+      <h2>Key Learning Areas</h2>
+      <ul>
+        <li>Low-code automation using n8n and Power Automate</li>
+        <li>Relational data modeling with MySQL</li>
+        <li>Finance analytics using Amazon Redshift and Tableau</li>
+        <li>REST APIs (Google Calendar, Gmail, Maps Places)</li>
+        <li>Workflow reliability, error handling, and debugging</li>
+      </ul>
+    </section>
+
+    <!-- Tools -->
+    <section>
+      <h2>Tools & Technologies</h2>
+      <div class="tag-list">
+        <span class="tag">n8n</span>
+        <span class="tag">Typebot</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">Amazon Redshift</span>
+        <span class="tag">Tableau</span>
+        <span class="tag">Google APIs</span>
+        <span class="tag">Power Automate</span>
+        <span class="tag">SharePoint</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">SQL</span>
+      </div>
+    </section>
+
+    <!-- Practical Learning -->
+    <section>
+      <h2>Practical Learning Projects</h2>
+
+      <h3>Invoice Automation System</h3>
+      <p>
+        Designed a workflow that captures customer and product inputs,
+        inserts structured data into MySQL (customers → invoices → invoice_items),
+        and generates automated summaries and emails.
+      </p>
+
+      <h3>Calendar Booking & Availability Logic</h3>
+      <p>
+        Built logic to calculate free time slots, handle time zones correctly,
+        avoid weekends, and generate consistent calendar booking payloads.
+      </p>
+
+      <h3>Finance Reporting & Provisioning Logic</h3>
+      <p>
+        Worked on Redshift SQL queries involving GL balances,
+        receivables, DPD calculations, month-end boundaries,
+        and provisioning classifications for dashboards.
+      </p>
+    </section>
+
+    <!-- Mindset -->
+    <section>
+      <h2>Learning & Work Approach</h2>
+      <ul>
+        <li>Prefer learning by building real workflows over tutorials</li>
+        <li>Focus on clean data contracts between systems</li>
+        <li>Reduce multiple steps into fewer, reliable processes</li>
+        <li>Design systems that work daily without manual fixes</li>
+      </ul>
+    </section>
+
+    <!-- Stack Reference -->
+    <section>
+      <h2>Typical System Flow</h2>
+      <div class="code">
+Typebot / Forms
+  → n8n Automation
+    → API Integrations
+    → MySQL / Redshift
+      → Emails / Calendar / Dashboards
+      </div>
+    </section>
+
+    <footer>
+      © Shubham Rastogi • Learning Resume • Hosted on GitHub Pages
+    </footer>
+
+  </div>
+</body>
+</html>
